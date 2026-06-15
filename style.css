@@ -1,0 +1,979 @@
+body {
+    font-family: outfit;
+    margin: 0;
+    color: #3A2B32;
+}
+a {
+    text-decoration: none;
+}
+/* THE HERO SECTION */
+.navbar {
+    font-family: Outfit;
+    color: #3A2B32;
+    padding: 1em 8em 0px 8em;
+    margin: 0em 7em;
+    background-color: #F0DECA;
+    background: radial-gradient(circle, rgba(240, 222, 202, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.brand-name {
+    font-family: Playfair;
+    font-style: italic;
+    font-size: 2em;
+    color: #3A2B32;
+        margin-left: -1em;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    margin-right: 0em;
+    color: #3A2B32 !important;
+}
+
+.shop-btn {
+    background-color: #CBA076;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.first {
+    background-color: #F0DECA;
+    height: 858px;
+    padding: 1em 8em 0px 8em;
+}
+.first .menu {
+    /* position:fixed; */
+    display: flex;
+    align-items: center;
+}
+.first .menu ul {
+    margin-left: 29em ;  
+}
+   
+.first .menu ul, li {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    font-size: 1.1em;
+} 
+.first .menu p{
+    font-family: playfair;
+    font-style: italic;
+    font-size: 2em;
+}
+.first .btn {
+    background-color: #CBA076;
+    border: none;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-style: bold;
+    margin-left: -2em;
+    font-weight: bold;
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+    /* height: 50em; */
+}
+.first .text {
+    width: 50%;
+}
+.second .text .info {
+    padding: 0;
+}
+.second .text .title{
+    font-style: normal;
+    font-size: 4.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.second .btn {
+    background-color: #3A2B32;
+    border: none;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-style: bold;
+    margin-top: 0.5em;
+    margin-left: -2px;
+}
+.second .btn a{
+   color: white;
+   font-weight: bold;
+}
+.second .text p {
+    font-style: normal;
+    font-size: 1.3em;
+    margin-top: -2em;
+}
+.images {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: -3em;
+    width: 88%;
+}
+
+.images img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.images .grid img:nth-of-type(1){
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+}
+.images .grid img:nth-of-type(2){
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+.images .grid img:nth-of-type(3){
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+.images .grid img:nth-of-type(4){
+    grid-column: 2 / 4;
+    grid-row: 2.5 / 5;
+}
+.images .grid img:nth-of-type(5){
+    margin-top: -6.7em;
+    grid-column: 1;
+    grid-row: 4 / 6;
+}
+.images .grid img:nth-of-type(6){
+    grid-column: 2;
+    grid-row: 4/5;
+}
+
+/* OUR PRODUCTS BY SECTION */
+.products {
+    height: auto;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    padding: 0em 8em;
+    /* margin-top: 0; */
+}
+.products .text .t2 {
+    text-align: center;
+    font-size: 3.3em;
+    margin-top: 1em;
+}
+.products .text .description {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+.products .image {
+    display: flex;
+    justify-content: center;
+}
+.products .image img:nth-of-type(1){
+    padding-right: 0.5em;
+}
+.products .image img:nth-of-type(2) {
+    padding-left: 0.5em;
+}
+.products button {
+    align-self: center;
+}
+.products .btn {
+    background-color: none;
+    border: solid 1px;
+    border-color: #3A2B32;
+    width: 6em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-style: bold;
+    margin-top: 0.5em;
+    align-items: center;
+}
+.products .btn:hover {
+    background-color: #3A2B32;
+}
+.products .btn a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+div.a .btn {
+    display: block;
+    margin: 0.5em auto;
+}
+
+/* INFO ABOUT OUR PRODUCTS  */
+.info {
+    background-color: #F0DECA;
+    height: auto;
+    padding: 0em 8em 0px 8em;
+}
+.info .t2 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+.info .cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.info .c img {
+    width: 100%;
+}
+.info .cards .desc {
+    text-align: center;
+}
+.info .c p {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 0;
+}
+.info .c a {
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    margin-top: -1em;
+    padding-bottom: 2em;
+}
+
+/* CALL TO ACTION SECTION */
+.action {
+    display: flex;
+    padding: 2em 9em 2em 9em;
+    margin: auto;
+    align-items: center;
+}
+.action .title {
+    width: 50%;
+    font-size: 3em;
+    font-weight: bold;
+}
+.action .inform {
+    width: 50%;
+    font-size: 1.1em;
+}
+.action .inform .btn1 {
+    background-color: #CBA076;
+    border: 1px solid #CBA076;
+    padding: 0.2em 2em 0.2em 2em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+.action .inform .btn1:hover {
+    background-color: #3A2B32;
+    border: 1px solid #3A2B32;
+    color: white;
+    box-shadow: 0px 0px 24px -7px rgba(0, 0, 0, 0.75);
+}
+.action .inform .btn2 {
+    background-color: white;
+    border: 1px solid #3A2B32;
+    padding: 0.2em 1.8em 0.2em 1.8em;
+    border-radius: 2em;
+    font-size: 1.2em;
+}
+.action .inform .btn2:hover {
+    box-shadow: 0px 0px 24px -7px rgba(0, 0, 0, 0.75);
+}
+
+/* ASORTIMENT SECTION */
+
+.asortiment hr {
+    height: 0.4em;
+    background-color: #F0DECA;
+}
+.asortiment .t {
+    text-align: center;
+    font-size: 3em;
+}
+.asortiment .buttons {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asortiment .buttons button {
+    width: 10%;
+    margin: 1.5em 0.2em;
+    padding: 0.5em 0;
+    border: none;
+    border-radius: 2em;
+    background-color: #F0DECA;
+}
+.asortiment .buttons button:nth-child(1) {
+    background-color: #CBA076;
+}
+.asortiment .buttons button:hover {
+    background-color: #CBA076;
+}
+.asortiment .cards {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.asortiment .cards .c {
+    margin: 0 1em;
+    width: 25%;
+}
+.asortiment .cards .c .photo {
+    height: 90%;
+    background-color: #f4f1ed;
+    align-items: center;
+    border-radius:30px 30px 0 0  !important;
+}
+.asortiment .cards .c .photo img {
+    display: flex;
+    margin: auto !important;
+    padding-top: 3em;
+    height: 85%;
+}
+
+.asortiment .cards .c .data {
+    background-color: #E0CAB2;
+    border-radius: 0 0 30px 30px !important;
+    height: 25%;
+    display: grid;
+}
+.asortiment .cards .c .data p {   
+    font-weight: 550;
+    padding-left: 1em;
+    font-size: 1.1em;
+}
+.asortiment .cards .c .data p:first-child {
+    padding-top: 5px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+.asortiment .cards .c .data img {
+    height: 2em;
+    position: inline;
+    margin-left: 88%;
+    margin-top: -28%;
+}
+
+/* CAROUSEL SECTION */
+
+.carousel {
+    margin-top: 6em;
+    height: auto;
+}
+.carousel-inner {
+    margin: 2em 10%;
+    width: auto;
+    height: auto;
+    max-width: 1200px;
+}
+
+.carousel .item {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 2.5rem;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem 0;
+}
+.carousel .phot {
+    width: 100%;
+    background-color: #f4f1ed;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.carousel .phot img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1em;
+    position: relative; 
+    margin: 0;
+}
+.carousel .inf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+.carousel .inf h3 {
+    font-weight: 400;
+    font-size: 2em;
+    margin: 0 0 0.25rem 0;
+}
+.carousel .inf .caption {
+    font-weight: 200;
+    margin: 0.25rem 0;
+}
+.carousel .inf .raiting {
+    font-weight: 200;
+    margin: 0.25rem 0;
+}
+.carousel .inf .price {
+    font-size: 3em;
+    margin: 0.25rem 0;
+}
+.carousel .inf .more {
+    font-weight: 200;
+    margin: 0.25rem 0 1rem 0;
+}
+.carousel .inf .btn-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.carousel .inf button {
+    width: 30%;
+    min-width: 120px;
+    padding: 0.5em 0;
+    border: none;
+    border-radius: 2em;
+    background-color: #F0DECA;
+}
+
+.carousel .inf button:hover {
+    background-color: #CBA076;
+}
+
+/* ABOUT US & CONTACTS */
+.contacts {
+    background-color: #F0DECA;
+    width: 70%;
+    margin: 5em auto;
+    border-radius: 2em ;
+}
+.contacts .aboutUS {
+    display: flex;
+}
+.contacts .us {
+    width: 100%;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.contacts .us h3 {
+    font-size: 5em;
+}
+.contacts .us h3 {
+    font-size: 3em;
+}
+.contacts .us p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.contacts .us button {
+    margin: 1.5em 0.2em;
+    padding: 0.5em 2em;
+    border: 2px solid;
+    border-color: #3A2B32;
+    border-radius: 2em;
+    background-color: #F0DECA;
+    margin-bottom: 3em;
+}
+
+.contacts .dec {
+    display: flex;
+    /* width: 30%; */
+}
+.contacts .dec img {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 15em;
+    z-index: 1;
+    top: 3em;
+}
+.contacts .square {
+    background-color: #D2A67F;
+    /* height: 30rem; */
+    width: 34rem;
+    border-radius: 15em 15em 2em 2em;
+    position: relative;
+    left: 3em;
+    bottom: 3em;
+}
+
+.contacts .contact {
+    display: flex;
+}
+.contacts .contact .map  {
+    margin-bottom: -5em;
+}
+.contacts .contact .map .square2{
+    background-color: #D2A67F;
+    width: 18rem;
+    height: 30rem;
+    border-radius: 15em 15em 2em 2em;
+    position: relative;
+    right: 3em;
+}
+.contacts .contact .map iframe {
+    width: 30rem;
+    height: 60%;
+    border-radius: 2em;
+    position: relative;
+    right: 1em;
+    bottom: 25rem;
+}
+.contacts .contact .data {
+    margin-left: 2.5em;
+}
+.contacts .contact .i {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: start;
+    /* justify-content: center; */
+}
+.contacts .contact h3 {
+    font-size: 2.7em;
+    margin-top: 2em;
+    font-weight: 400;
+}
+.contact .data table {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.contact .data table .bi{
+    padding-right: 0.5em;
+    font-size: 1.8em;
+}
+.contact .social p {
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+.contact .social i {
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+/* Footer */
+.footer hr {
+    height: 0.4em;
+    background-color: #F0DECA;
+}
+.footer .foot {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    padding: auto;
+}
+.footer .foot .logo {
+    font-family: Playfair;
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.footer .foot .subtitle {
+    font-weight: 600;
+}
+.footer .foot {
+    font-weight: 300;
+}
+.footer .foot .subscribe .form {
+    display: flex;  
+}
+.footer .foot .subscribe .form input {
+    border-radius: 2em; 
+    height: 2em;
+    border: 1px solid #3A2B32;
+}
+.footer .foot .subscribe .form button {
+    margin-left: 0.2em;
+    border: 1px solid;
+    border-color: #3A2B32;
+    border-radius: 2em;
+    background-color: none;
+    background-color: white;
+    width: 6em;
+}
+.footer .foot .subscribe .small {
+    font-weight: 200; 
+    font-size: 0.8em;
+}
+.footer .copyright {
+    text-align: center;
+    margin-top: 3em;
+}
+
+
+@media screen and (max-width: 1300px) {
+    /* the hero section */
+    .first {
+        height: auto;
+    }
+    .first .navbar-brand{
+        font-size:1.5em;
+    }
+    .second {
+        display: block;
+    }
+    .second .text {
+        width: 100%;
+        text-align: center;
+        margin-top: 4em;
+        padding-top: 2em;
+    }
+    .second .text .title {
+        font-size: 2em;
+        display: block;
+    }
+    .second .btn {
+        margin-bottom: 1em;
+        margin-top: 0em;
+    }
+    .second .text .info {
+        font-size: 1em;
+        padding:  1em 3em;
+    }
+    .second .images .grid img {
+        display: none;
+    }
+
+    /* the products section */
+    .products {
+        width: auto;
+        text-align: center;
+    }
+    .products .text .t2{
+        font-size: 1.5em;
+    }
+    .products .text .description {
+        font-size: 0.8em;
+        margin-top: -1em;
+    }
+    .products .image img {
+        width: 100%;
+    }
+    .products .btn {
+        width: 8em;
+        border-radius: 2em;
+        font-size: 0.8em;
+        margin-top: 0.4em;
+    }
+
+    /* the description/info section  */
+    .info .t2 {
+        font-size: 1.5em;
+    }
+    .info .c p {
+        font-size: 1em;
+    }
+    .info .c a {
+        font-size: 0.7em;
+    }
+
+    /* the asortiment with products section */
+    .asortiment {
+        align-self: center;
+        margin: 0 auto;
+    }
+    .asortiment .t {
+        align-self: center;
+        font-size: 2em;
+    }
+    .asortiment .cards {
+        display: grid;
+        justify-content: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .asortiment .cards .c {
+        margin-bottom:  4em;
+        width:100%;
+    }
+
+
+    /* carousel */
+     .carousel-inner {
+        margin: 2em 5%;
+    }
+    .carousel .item {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0.8rem 0;
+    }
+    .carousel .phot {
+        padding: 0.8rem;
+    }
+    .carousel .phot img {
+        max-width: 720px;
+    }
+    .carousel .inf h3 { 
+        font-size: 1.6em; 
+    }
+    .carousel .inf .price { 
+        font-size: 2.2em; 
+    }
+    .carousel .inf .more {
+        display: none;
+    }
+    .carousel .inf button { 
+        width: 40%; 
+        min-width: 110px; 
+    }
+
+    /* about us */
+    .contacts .dec .square {
+        display: none;
+    }
+    .contacts .dec img {
+        width: 90%;
+        height: 80%;
+        left: 1em;
+    }
+
+}
+@media screen and (max-width: 1250px) {
+    .contacts .contact {
+        margin-top: -3em;
+    }
+    .contacts .contact .square2 {
+        display: none;
+    }
+    .contacts .contact iframe{
+        display: relative;
+        top: 5em;
+        left: 1em;
+        width: 10em;
+    }
+    .contacts .contact h3 {
+        font-size: 1.8em;
+    }
+    .contact .data table {
+        font-size: 1em;
+    }
+    .contact .social p {
+        font-size: 1em;
+        padding-top: 0;
+    }
+    .contact .social i {
+        font-size: 1em;
+        margin-top: -0.5em;
+    }
+    
+    /* footer */
+    .footer .foot .logo {
+        display: none;
+    }
+    .footer .foot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .foot .platform, .subscribe {
+        margin-top: 2em;
+    }
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .products {
+        padding: 0 4em;
+    }
+    .products .image {
+        display: inline;
+    }
+    .products .image img{
+        width: 75%;
+        margin-bottom: 1em;
+    }
+    .info  {
+        padding: 0 1em;
+    }
+    .info .cards {
+        display: inline;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .info .cards .c{
+        display: grid;
+        justify-content: center;
+    }
+    .info .cards img{
+        width: 75%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    /* carousel */
+    .carousel-inner {
+        margin: 1em 3%; 
+    }
+
+    .carousel .phot img {
+        max-width: 460px;
+    }
+    .carousel .inf h3 { 
+        font-size: 1.2em; 
+    }
+    .carousel .inf .price {
+         font-size: 1.5em; 
+    }
+    .carousel .inf button {
+        width: 100%; 
+        min-width: 0;
+    }
+    .carousel .inf .btn-row {
+        gap: 0.6rem;
+    }
+    .carousel .inf .caption {
+        display: none;
+    }
+
+    /* about us */
+    .contacts .aboutUS {
+        margin-right: 2em;
+    }
+    .contacts .us h3 {
+        font-size: 2em;
+    }
+    .contacts .us button {
+        margin-top: 0;
+    }
+    .contacts .dec {
+        display: none;
+    }
+
+    /* contacts */
+    .contacts .contact {
+        display: grid;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    /* Call to action section */
+    .action {
+        display: grid;
+        text-align: center;
+    }
+    .action .title {
+        width: 100%;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .action .inform {
+        width: 100%;
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+
+    /* Asortiment section with out products  */
+    .asortiment .buttons button:nth-child(4), 
+    .asortiment .buttons button:nth-child(5) {
+        display: none;
+    }
+    .asortiment .buttons button {
+        width: 20%;
+        margin: 1.5em 0.2em;
+        padding: 0.5em 0;
+    }
+
+    /* carousel */
+    .carousel-inner { 
+        margin: 1.5em 4%; 
+    }
+    .carousel .phot img {
+        max-width: 620px;
+    }
+    .carousel .inf h3 {
+        font-size: 1.4em; 
+    }
+    .carousel .inf .price { 
+        font-size: 1.9em; 
+    }
+    .carousel .inf button { 
+        width: 48%; 
+        min-width: 100px; 
+    }
+    .carousel .inf .raiting {
+        display: none;
+    }
+
+    /* contact */
+    .contacts {
+        padding-bottom: 10px;
+    }
+    .contacts .contact {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
+    .contacts .contact .map iframe {
+        border-radius: 1em;
+        position: relative;
+        top: 2em;
+        width: 94%;
+        height: 20rem;
+    }
+    .contacts .contact .data {
+        margin-top: 10%
+    }
+    .contacts .contact .social {
+        padding-bottom: 2em;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .footer .foot {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .foot .platform, .subscribe, .resources {
+        margin-top: 1em;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .carousel .phot img {
+        max-width: 360px; 
+    }
+    .carousel .inf h3 { 
+        font-size: 1.05em; 
+    }
+    .carousel .inf .price { 
+        font-size: 1.25em; 
+    }
+    .carousel {
+        margin-top: 4.5em; 
+    }
+}
